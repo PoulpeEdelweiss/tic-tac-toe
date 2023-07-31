@@ -40,7 +40,7 @@ function Square(props) {
     }
   
     render() {
-      const status = 'Next player: X';
+      const status = 'Следующий ход: X' + (this.state.xIsNext? 'X' : 'O');
   
       return (
         <div>
